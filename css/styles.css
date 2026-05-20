@@ -205,13 +205,20 @@ a:focus-visible {
   }
 }
 
+.hero picture {
+  display: block;
+  flex-shrink: 0;
+}
+
 .hero__photo {
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 11rem;
+  height: 11rem;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 18%;
   border: 3px solid var(--surface);
   box-shadow: var(--shadow-md);
+  image-rendering: auto;
 }
 
 .hero__eyebrow {
@@ -549,6 +556,62 @@ a:focus-visible {
   margin-right: 0.5rem;
   color: var(--accent-light);
   font-weight: 700;
+}
+
+/* Sub-section (Sites under Artigos) */
+.section__header--sub {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.section__title-sub {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.sites-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sites-list__item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.sites-list__item:hover {
+  border-color: var(--accent-light);
+  box-shadow: var(--shadow-md);
+}
+
+.sites-list__item a {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  color: inherit;
+}
+
+.sites-list__item a:hover {
+  color: inherit;
+}
+
+.sites-list__url {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.35rem;
+}
+
+.sites-list__desc {
+  display: block;
+  font-size: 0.9375rem;
+  color: var(--text-muted);
 }
 
 /* Footer */

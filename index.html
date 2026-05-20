@@ -3,20 +3,20 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Vitor Melo Viana — Engenheiro Civil. Orçamento, planejamento, controle de obra, BIM e analista de projetos. Fortaleza/CE." />
+    <meta name="description" content="Vitor Melo Viana — Engenheiro Civil e Desenvolvedor Full Stack. Orçamento, planejamento, controle de obra, BIM e analista de projetos. Fortaleza/CE." />
     <meta name="author" content="Vitor Melo Viana" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://vitormelov.github.io/" />
 
     <meta property="og:type" content="profile" />
-    <meta property="og:title" content="Vitor Melo Viana — Engenheiro Civil" />
-    <meta property="og:description" content="Engenheiro civil especializado em orçamento, planejamento, controle de obra, BIM e projetos." />
+    <meta property="og:title" content="Vitor Melo Viana — Engenheiro Civil · Desenvolvedor Full Stack" />
+    <meta property="og:description" content="Engenheiro civil e desenvolvedor Full Stack. Orçamento, planejamento, controle de obra, BIM e projetos." />
     <meta property="og:url" content="https://vitormelov.github.io/" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="profile:first_name" content="Vitor" />
     <meta property="profile:last_name" content="Melo Viana" />
 
-    <title>Vitor Melo Viana — Engenheiro Civil</title>
+    <title>Vitor Melo Viana — Engenheiro Civil · Desenvolvedor Full Stack</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +29,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Vitor Melo Viana",
-      "jobTitle": "Engenheiro Civil",
+      "jobTitle": "Engenheiro Civil · Desenvolvedor Full Stack",
       "worksFor": {
         "@type": "Organization",
         "name": "Construtora Preferencial"
@@ -50,6 +50,7 @@
       ],
       "knowsAbout": [
         "Engenharia Civil",
+        "Desenvolvimento Full Stack",
         "BIM",
         "Orçamento de obras",
         "Planejamento e controle de obra",
@@ -89,23 +90,28 @@
 
     <main id="conteudo" class="page">
         <header class="hero" id="sobre">
-            <img
-                class="hero__photo"
-                src="assets/img/profile.jpeg"
-                alt="Foto de Vitor Melo Viana"
-                width="120"
-                height="120"
-                loading="eager"
-            />
+            <picture>
+                <source srcset="assets/img/profile.webp" type="image/webp" />
+                <img
+                    class="hero__photo"
+                    src="assets/img/profile.jpeg"
+                    srcset="assets/img/profile.jpeg 1x, assets/img/profile@2x.jpeg 2x"
+                    alt="Foto de Vitor Melo Viana"
+                    width="176"
+                    height="176"
+                    loading="eager"
+                    decoding="async"
+                />
+            </picture>
             <div class="hero__content">
-                <p class="hero__eyebrow">Engenheiro Civil</p>
+                <p class="hero__eyebrow">Engenheiro civil · Desenvolvedor Full Stack</p>
                 <h1>Vitor Melo Viana</h1>
                 <p class="hero__role">
                     Engenheiro civil na Construtora Preferencial · Desenvolvimento de orçamentos · Analista de projetos · Controle e planejamento de obra
                 </p>
                 <ul class="hero__meta">
                     <li class="meta-chip">Fortaleza, CE</li>
-                    <li class="meta-chip">30 anos</li>
+                    <li class="meta-chip">32 anos</li>
                     <li class="meta-chip">
                         <a href="mailto:vitormelov@gmail.com">vitormelov@gmail.com</a>
                     </li>
@@ -339,11 +345,24 @@
                 <li>Uso do Power BI aliado ao BIM – Building Information Modeling – para facilitar o gerenciamento de dados de quantitativos, visando aperfeiçoar o planejamento e controle de obra.</li>
                 <li>As vantagens da utilização dos softwares BIM (Building Information Modeling) sobre o CAD (Computer Aided Design).</li>
             </ul>
+
+            <header class="section__header section__header--sub">
+                <p class="section__label">Projetos</p>
+                <h3 id="titulo-sites" class="section__title-sub">Sites</h3>
+            </header>
+            <ul class="sites-list">
+                <li class="sites-list__item">
+                    <a href="https://obratransparente.eng.br" rel="noopener noreferrer" target="_blank">
+                        <span class="sites-list__url">obratransparente.eng.br</span>
+                        <span class="sites-list__desc">Site de planejamento e controle de obra</span>
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer class="site-footer">
-        <p>Vitor Melo Viana · Engenheiro Civil · Fortaleza, CE</p>
+        <p>Vitor Melo Viana · Engenheiro civil · Desenvolvedor Full Stack · Fortaleza, CE</p>
     </footer>
 
     <script src="js/scripts.js"></script>
