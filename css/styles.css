@@ -291,6 +291,12 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .social-link {
   display: inline-flex;
   align-items: center;
